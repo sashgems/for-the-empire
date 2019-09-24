@@ -3,7 +3,7 @@ function spotEachRebel(rebels) {
   var i; 
 
     for (i = 0; i< rebels.length; i = i+1) {
-      spottedRebelCalls.push('Look! Rebel scum!')
+      spottedRebelCalls.push('Look! Rebel scum!');
   }
 
   return spottedRebelCalls
@@ -44,5 +44,5 @@ module.exports.deliverStormTroopersEscapeScene = function (rebels) {
   var shotsAtNothing = shootAtNothing()
   sceneSequence = sceneSequence.concat(shotsAtNothing)
 
-  return sceneSequence
+  return sceneSequence 
 }
